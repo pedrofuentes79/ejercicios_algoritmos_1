@@ -1,0 +1,1 @@
+if (empty(prop("Nota 1")) and empty(prop("Nota 2")) , 0, if (empty(prop("Nota 1")), prop("Nota 2"), if (empty(prop("Nota 2")), prop("Nota 1"),(prop("Nota 1")+prop("Nota 2"))/2)))
